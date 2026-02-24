@@ -1,7 +1,7 @@
 def str_rev(value):
-    index = -1
+    index = len(value) -1
     reversed = ''
-    while(-len(value) <= index):
+    while(index >= 0):
         reversed  += value[index]
         index -= 1
     return reversed
